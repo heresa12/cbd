@@ -9,6 +9,8 @@ body {
 h1 {
     text-align: center;
     color: black;
+    font-family: 'Cormorant Garamond', serif;
+    
 }
 
 div {
@@ -18,6 +20,7 @@ div {
 h2 {
     text-align: center;
     color: chartreuse;
+    font-family: 'Open Sans', sans-serif;
 }
 
 form {
