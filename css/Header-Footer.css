@@ -2,6 +2,7 @@ body {
     background-image: url(../image/3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 h1 {
@@ -55,12 +56,18 @@ nav {
     top: 0;
 }
 
+main{
+    height: 70px;
+
+}
 #menu-accordeon {
     padding: 0;
     margin: 0;
     list-style: none;
     text-align: center;
     width: 180px;
+    position: relative;
+    z-index: 3;
 }
 
 #menu-accordeon ul {
@@ -124,14 +131,15 @@ nav {
 
 .histoire-du-cbd {
     
-        background-color: #4C865A;
-        border: 2px solid #000000;    
-        margin: 50px;
-        line-height: 150px;
-        text-align: center;
-    
-    }
-    a{
-        color: #000000;
-    }
-    
+    background-color: #4C865A;
+    border: 2px solid #000000;    
+    margin: 50px;
+    line-height: 150px;
+    text-align: center;
+
+}
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
