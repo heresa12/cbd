@@ -8,8 +8,8 @@ h1 {
     text-align: center;
     color: black;
     font-family: 'Cormorant Garamond', serif;
-    
-    
+
+
 }
 
 div {
@@ -71,7 +71,7 @@ nav {
 }
 
 #menu-accordeon li {
-    background-color:#4C865A;
+    background-color: #4C865A;
     background-image: -webkit-linear-gradient(top, #4C865A 0%, #333A40 100%);
     background-image: linear-gradient(to bottom, #4C865A 0%, #333A40 100%);
     border-radius: 6px;
@@ -123,15 +123,15 @@ nav {
 }
 
 .histoire-du-cbd {
-    
-        background-color: #4C865A;
-        border: 2px solid #000000;    
-        margin: 50px;
-        line-height: 150px;
-        text-align: center;
-    
-    }
-    a{
-        color: #000000;
-    }
-    
+
+    background-color: #4C865A;
+    border: 2px solid #000000;
+    margin: 50px;
+    line-height: 150px;
+    text-align: center;
+
+}
+
+.histoire-du-cbd a {
+    color: #000000;
+}
