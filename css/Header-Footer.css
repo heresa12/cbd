@@ -136,6 +136,7 @@ main{
     margin: 50px;
     line-height: 150px;
     text-align: center;
+    box-shadow: 6px 6px 8px 0px; ;
 
 }
 a{
