@@ -121,3 +121,17 @@ nav {
 #menu-accordeon li:hover li {
     max-height: 15em;
 }
+
+.histoire-du-cbd {
+    
+        background-color: #4C865A;
+        border: 2px solid #000000;    
+        margin: 50px;
+        line-height: 150px;
+        text-align: center;
+    
+    }
+    a{
+        color: #000000;
+    }
+    
