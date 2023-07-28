@@ -7,7 +7,7 @@ body {
 
 h1 {
     text-align: center;
-    color: black;
+    color: rgb(51, 47, 47);
     font-family: 'Cormorant Garamond', serif;
     
     
@@ -19,7 +19,7 @@ div {
 
 h2 {
     text-align: center;
-    color: chartreuse;
+    color: rgb(148, 187, 110);
     font-family: 'Lobster', cursive;
 }
 
@@ -79,12 +79,12 @@ main{
 
 #menu-accordeon li {
     background-color:#4C865A;
-    background-image: -webkit-linear-gradient(top, #4C865A 0%, #333A40 100%);
-    background-image: linear-gradient(to bottom, #4C865A 0%, #333A40 100%);
+    background-image: -webkit-linear-gradient(top, #73cc88 0%, #333A40 100%);
+    background-image: linear-gradient(to bottom, #80de96 0%, #333A40 100%);
     border-radius: 6px;
     margin-bottom: 2px;
-    box-shadow: 3px 3px 3px #4C865A;
-    border: solid 1px #4C865A
+    box-shadow: 3px 3px 3px #72d288;
+    border: solid 1px #73c887
 }
 
 #menu-accordeon li li {
@@ -113,7 +113,7 @@ main{
 }
 
 #menu-accordeon li:hover {
-    background: #4C865A
+    background: #86dc9a
 }
 
 #menu-accordeon li li:hover {
@@ -131,7 +131,7 @@ main{
 
 .histoire-du-cbd {
     
-    background-color: #4C865A;
+    background-color: #87d298;
     border: 2px solid #000000;    
     margin: 50px;
     line-height: 150px;

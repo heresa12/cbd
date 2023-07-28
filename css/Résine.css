@@ -1,10 +1,39 @@
 h5{
     text-align: center;
     background-color: #4c865a;
+    box-shadow: 3px 3px 3px #03641a;
 }
-p card-text{
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Lobster', cursive;
-    font-family: 'Mynerve', cursive;
-    font-family: 'Open Sans', sans-serif;
+p{
+    font-style: italic;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+p1{
+    font-style: italic;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(37, 167, 37) 
+}
+p2{
+    text-decoration:underline;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4c865a;
+}
+lu{
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:black;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: red;
+}
+h4{
+    text-align: center;
+    text-decoration:underline;
+    color:darkgreen;
+    box-shadow: 3px 3px 3px #03641a;
+}
+span{
+    color:darkgreen;
+    box-shadow:3px 3px 3px #03641a ;
