@@ -19,6 +19,11 @@ h6 {
     color: rgb(3, 4, 3);
     font-family: 'Lobster', cursive;
 }
+h4 {
+    text-align: center;
+    color: rgb(3, 4, 3);
+    font-family: 'Lobster', cursive;
+}
 form {
     display: flex;
     flex-direction: column;
