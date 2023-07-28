@@ -5,24 +5,20 @@ body {
 
 }
 
-h1 {
-    text-align: center;
-    color: rgb(51, 47, 47);
-    font-family: 'Cormorant Garamond', serif;
-    
-    
-}
-
 div {
     color: black;
 }
 
-h2 {
+h5 {
     text-align: center;
     color: rgb(148, 187, 110);
     font-family: 'Lobster', cursive;
 }
-
+h6 {
+    text-align: center;
+    color: rgb(3, 4, 3);
+    font-family: 'Lobster', cursive;
+}
 form {
     display: flex;
     flex-direction: column;
@@ -129,16 +125,7 @@ main{
     max-height: 15em;
 }
 
-.histoire-du-cbd {
-    
-    background-color: #87d298;
-    border: 2px solid #000000;    
-    margin: 50px;
-    line-height: 150px;
-    text-align: center;
-    box-shadow: 6px 6px 8px 0px; ;
 
-}
 a{
     color: #000000;
     text-decoration: none;
