@@ -7,9 +7,13 @@ img {
 
 }
 
-del {
+.prix span { 
     color: red;
+    margin-left: 15px;
+
 }
+
+
 .produit p:not(.prix)  { 
     height: 200px;
     overflow: scroll;
