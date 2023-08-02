@@ -1,0 +1,10 @@
+p{
+text-align: center;
+font-family: 'Roboto Condensed', sans-serif;
+font-size: 38px;
+}
+.card img{
+    width: auto;
+    height: 85vh;
+    /* border: 10px solid rgb(46, 252, 15); */
+}
