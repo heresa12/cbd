@@ -150,3 +150,9 @@ footer {
     text-align: center;
     
 }
+.image{
+    position: relative;
+      display: flex;
+      flex-direction: row-reverse;
+
+  }
