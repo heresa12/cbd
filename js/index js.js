@@ -19,4 +19,8 @@ $('#recipeCarousel').carousel({
           next.children(':first-child').clone().appendTo($(this));
         }
   });
+  function search() {
+    var searchTerm = document.getElementById('searchInput').value;
+}
+
   
