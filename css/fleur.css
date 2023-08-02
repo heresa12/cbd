@@ -49,3 +49,9 @@ span {
     color: darkgreen;
     box-shadow: 3px 3px 3px #03641a;
 }
+.image{
+    position: relative;
+      display: flex;
+      flex-direction: row-reverse;
+      
+  }
