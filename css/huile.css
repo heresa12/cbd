@@ -45,4 +45,9 @@ h2{
 
 
 
-
+.image{
+    position: relative;
+      display: flex;
+      flex-direction: row-reverse;
+      
+  }
