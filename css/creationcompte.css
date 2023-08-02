@@ -168,7 +168,7 @@ nav {
     font: 7px;
   }
   
-  .sign-in {
+  .sign-in > p{
     margin-bottom: 50px;
     font-size: 30px;
     font-weight: bold;
@@ -278,3 +278,34 @@ nav {
     margin-right: 10px;
     
 }
+
+.btn1 {
+    width: 350px;
+    margin-top: 20px;
+    border-radius: 50px;
+    margin-left: 20px;
+    
+  }
+
+  .sign-in a {
+    color: white;
+
+  }
+
+  .sign-in a:hover {
+    color: white;
+
+  }
+
+  .sign-inmdp {
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .sign-incr {
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
