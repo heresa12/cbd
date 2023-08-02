@@ -34,7 +34,20 @@ footer.produit{
 h2{
     color: red;
 }
+h4{ 
+    text-align: center;
+
+}
+h2{ 
+    text-align: center;
+
+}
 
 
 
-
+.image{
+    position: relative;
+      display: flex;
+      flex-direction: row-reverse;
+      
+  }

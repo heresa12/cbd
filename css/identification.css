@@ -2,7 +2,6 @@ body {
     background-image: url(../image/3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 h1 {
@@ -56,18 +55,12 @@ nav {
     top: 0;
 }
 
-main{
-    height: 70px;
-
-}
 #menu-accordeon {
     padding: 0;
     margin: 0;
     list-style: none;
     text-align: center;
     width: 180px;
-    position: relative;
-    z-index: 3;
 }
 
 #menu-accordeon ul {
@@ -129,26 +122,95 @@ main{
     max-height: 15em;
 }
 
-<<<<<<< HEAD:css/style.css
+.lien-icone{
+    margin-top: 30px;
+    margin-bottom: -60px;
+}
 
-=======
-.histoire-du-cbd {
+.container{
+    grid-template-columns: repeat(2, 1fr);
+    text-align: justify;
+    border: 1px solid black;
+    padding-right: -100px;
+    padding-left: -100px;
+    padding-bottom: 0px;
+    margin-top: 65px;
+    margin-bottom: 0px;
+    border-radius: 20px;
+    border-right: -100px;
+    border-left: -200px;
+}
+
+input{
+    margin-right: 340px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    padding-left: 250px;
+    padding-bottom: 10px;
     
+}
+
+label{
+    padding-left: 330px;
+}
+
+.continuer{
+    padding: 10px;
+    padding-left: 117px;
+    padding-right: 117px;
     background-color: #4C865A;
-    border: 2px solid #000000;    
-    margin: 50px;
-    line-height: 150px;
+    ;
+}
+
+p{
     text-align: center;
-    box-shadow: 6px 6px 8px 0px; ;
-
+    margin-left: 40px;
+    margin-right: 300px;
+    padding-bottom: 100px;
+    margin-bottom: -80px;
+    padding-right: 50px;
+    
 }
-a{
-    color: #000000;
-    text-decoration: none;
-}
-<<<<<<< HEAD
->>>>>>> f0dfc98f7e2286c8606b4318fdff1d8ed577141e:css/Header-Footer.css
-=======
-  
->>>>>>> 56455324f177a4541681780fea34841fbc218ae9
 
+.aide{
+    padding: 10px;
+    padding-left: 85px;
+    padding-right: 85px;
+    margin-left: 0px;
+    background-color: #4C865A;
+    border-radius: 50px;
+}
+
+.création{
+    padding: 10px;
+    padding-left: 65px;
+    padding-right: 70px;
+    margin-left: 0px;
+    background-color: #4C865A;
+    padding-top: -50px;
+    align-items: center;
+}
+
+.new{
+    padding-right: 30px;
+}
+
+.liensbasdepage{
+    text-align: center;
+    padding: 10px;
+    padding-left: 65px;
+    padding-right: 70px;
+    margin-left: -300px;
+    padding-top: -50px;
+    align-items: center;
+    
+}
+
+.liens{
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 85px;
+    margin-left: -58px;
+    background-color: #4C865A;
+    border-radius: 50px;
+}
