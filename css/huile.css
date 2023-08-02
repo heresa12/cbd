@@ -25,7 +25,8 @@ img {
 h5 {
     text-align: center;
     background-color: #4c865a;
-    box-shadow: 3px 3px 3px #03641a;
+    box-shadow: 2px 2px 2px #03641a;
+    font-size: medium;
 }
 footer.produit{
     border: top 30px; 
@@ -42,6 +43,16 @@ h2{
     text-align: center;
 
 }
+footer{ 
+    display: flex;
+    justify-content: space-between;
+
+}
+footer div{
+    display: flex;
+    align-items: center;
+}
+
 
 
 
