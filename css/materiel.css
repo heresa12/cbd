@@ -8,6 +8,11 @@ body {
 div {
     color: black;
 }
+h4 {
+    text-align: center;
+    background-color: #4c865a;
+    box-shadow: 3px 3px 3px #03641a;
+}
 
 h5 {
     text-align: center;
@@ -54,7 +59,7 @@ nav {
     width: 100%;
     font-size: 18px;
     position: sticky;
-    top: 0;
+    top: 100;
 }
 
 main{
