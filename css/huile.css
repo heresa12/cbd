@@ -1,0 +1,37 @@
+img { 
+    border:1px solid white;
+    background-color: antiquewhite ;
+}
+.prix{ 
+    text-align: center;
+
+}
+
+.prix span { 
+    color: red;
+    margin-left: 15px;
+
+}
+
+
+.produit p:not(.prix)  { 
+    height: 200px;
+    overflow: scroll;
+    text-align: center;
+}
+.produit h5  { 
+    min-height: 50px;
+}
+h5 {
+    text-align: center;
+    background-color: #4c865a;
+    box-shadow: 3px 3px 3px #03641a;
+}
+footer.produit{
+    border: top 30px; 
+    
+}
+
+
+
+

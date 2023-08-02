@@ -1,0 +1,137 @@
+body {
+    background-image: url(../image/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+div {
+    color: black;
+}
+
+h5 {
+    text-align: center;
+    color: rgb(148, 187, 110);
+    font-family: 'Lobster', cursive;
+}
+h6 {
+    text-align: center;
+    color: rgb(3, 4, 3);
+    font-family: 'Lobster', cursive;
+}
+h4 {
+    text-align: center;
+    color: rgb(3, 4, 3);
+    font-family: 'Lobster', cursive;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
+    color: black;
+}
+
+.form-nom-email {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.form-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #0D1C0D;
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+    font-size: 18px;
+    position: sticky;
+    top: 0;
+}
+
+main{
+    height: 70px;
+
+}
+#menu-accordeon {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    width: 180px;
+    position: relative;
+    z-index: 3;
+}
+
+#menu-accordeon ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+#menu-accordeon li {
+    background-color:#4C865A;
+    background-image: -webkit-linear-gradient(top, #73cc88 0%, #333A40 100%);
+    background-image: linear-gradient(to bottom, #80de96 0%, #333A40 100%);
+    border-radius: 6px;
+    margin-bottom: 2px;
+    box-shadow: 3px 3px 3px #72d288;
+    border: solid 1px #73c887
+}
+
+#menu-accordeon li li {
+    max-height: 0;
+    overflow: hidden;
+    transition: all .5s;
+    border-radius: 0;
+    background: #444;
+    box-shadow: none;
+    border: none;
+    margin: 0
+}
+
+#menu-accordeon a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 0;
+    font-family: verdana;
+    font-size: 1.2em
+}
+
+#menu-accordeon ul li a,
+#menu-accordeon li:hover li a {
+    font-size: 1em
+}
+
+#menu-accordeon li:hover {
+    background: #86dc9a
+}
+
+#menu-accordeon li li:hover {
+    background: #999;
+}
+
+#menu-accordeon ul li:last-child {
+    border-radius: 0 0 6px 6px;
+    border: none;
+}
+
+#menu-accordeon li:hover li {
+    max-height: 15em;
+}
+
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
