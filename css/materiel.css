@@ -140,3 +140,13 @@ a{
     color: #000000;
     text-decoration: none;
 }
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: red;
+}
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
