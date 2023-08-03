@@ -214,3 +214,8 @@ p{
     background-color: #4C865A;
     border-radius: 50px;
 }
+.imagelegal {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+}

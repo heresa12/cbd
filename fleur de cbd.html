@@ -12,8 +12,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=Lobster&family=Open+Sans:wght@300&display=swap"
         rel="stylesheet">
-
-
+    <a href="#" id="back-to-top" title="Remonter en haut de page">&#8593;</a>
     <link rel="stylesheet" href="css/Header-Footer.css">
     <link rel="stylesheet" href="css/fleur.css">
 
@@ -21,9 +20,9 @@
 
 <body>
     <header>
-        <div class="image">
-        <img src="./image/100_legal.png" alt="100%" height="80">
-    </div>
+        <div class="imagelegal">
+            <img src="./image/100_legal.png" alt="100%" height="80">
+        </div>
         <h1>Médical CBD</h1>
 
         <nav>
@@ -404,16 +403,21 @@
         <div>
             <a href="paiement" class="lien-icone">
                 <img src="image/cb 2.png" alt="logo cb" height="40">
+
             </a>
+
+        </div>
+        <div>
             <a href="CGV.html" class="lien-icone">
                 <img src="./image/cgv.png" alt="logo CGU" height="40">
             </a>
             <a href="pdc.html" class="lien-icone">
                 <img src="./image/pdc.png" alt="logo pdc" height="40"></a>
-
             <a href="livraison" class="lien-icone">
                 <img src="image/livraison camion.jpg" alt="livraison camion" height="40">
             </a>
+        </div>
+        <div>
             <a href="qui somme nous.html" class="lien-icone">
                 <img src="./image/qui-sommes-nous.jpg" alt="qui qui-sommes-nous" height="40">
             </a>
@@ -425,23 +429,47 @@
                 <img src="image/mail.jpg" alt="mail" height="40">
             </a>
 
-            </a>
             <a href="question.html" class="lien-icone">
                 <img src="image/faq.png" alt="question" height="40">
             </a>
+        </div>
+        <div>
             <a href="https://twitter.com/" class="lien-icone">
-                <img src="image/twitter.png" alt="Logo Twitter">
+                <img src="image/twitter.png" alt="Logo Twitter" height="40">
             </a>
             <a href="https://www.instagram.com/" class="lien-icone">
-                <img src="image/instagram.png" alt="Logo Instagram">
+                <img src="image/instagram.png" alt="Logo Instagram" height="40">
             </a>
+            <a href="https://www.facebook.com/" class="lien-icone ">
+                <img src="./image/facebook.jpeg " alt="Logo Facebook" height="40">
+            </a>
+            <a href="https://www.tiktok.com/" class="lien-icone">
+                <img src="./image/tik tok.jpeg" alt="Logo Tik tok" height="40">
+            </a>
+        </div>
         </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
+    <script>
+        var backToTopBtn = document.getElementById("back-to-top");
 
+        window.onscroll = function () {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                backToTopBtn.style.display = "block";
+            } else {
+                backToTopBtn.style.display = "none";
+            }
+        };
+
+
+        backToTopBtn.addEventListener("click", function () {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        });
+    </script>
 </body>
 
 

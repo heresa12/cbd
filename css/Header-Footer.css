@@ -129,9 +129,7 @@ main{
     max-height: 15em;
 }
 
-<<<<<<< HEAD:css/style.css
 
-=======
 .histoire-du-cbd {
     
     background-color: #4C865A;
@@ -146,9 +144,38 @@ a{
     color: #000000;
     text-decoration: none;
 }
-<<<<<<< HEAD
->>>>>>> f0dfc98f7e2286c8606b4318fdff1d8ed577141e:css/Header-Footer.css
-=======
-  
->>>>>>> 56455324f177a4541681780fea34841fbc218ae9
 
+footer{ 
+    display: flex;
+    justify-content: space-between;
+
+}
+footer div{
+    display: flex;
+    align-items: center;
+}
+.imagelegal {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+#back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color:#4C865A; 
+    color: #fff; 
+    text-align: center;
+    line-height: 40px;
+    font-size: 24px;
+    border-radius: 50%;
+    z-index: 9999;
+}
+
+#back-to-top:hover {
+    background-color: #4C865A; 
+}

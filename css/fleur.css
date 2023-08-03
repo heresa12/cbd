@@ -24,9 +24,9 @@ p2 {
 
 lu,
 {
-font-family : 'Cormorant Garamond', serif;
-font-family : 'Lobster', cursive;
-font-family : 'Mynerve', cursive;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Mynerve', cursive;
 font-family: 'Open Sans', sans-serif;
 color: black;
 }
@@ -48,9 +48,37 @@ span {
     color: darkgreen;
     box-shadow: 3px 3px 3px #03641a;
 }
-.image{
+
+.image {
     position: relative;
-      display: flex;
-      flex-direction: row-reverse;
-      
-  }
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.imagelegal {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+#back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #4C865A;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 24px;
+    border-radius: 50%;
+    z-index: 9999;
+}
+
+#back-to-top:hover {
+    background-color: #4C865A;
+}

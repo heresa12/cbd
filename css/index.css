@@ -329,3 +329,22 @@ h1 span:nth-child(12) {
     flex-direction: row-reverse;
 
 }
+#back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color:#4C865A; 
+    color: #fff; 
+    text-align: center;
+    line-height: 40px;
+    font-size: 24px;
+    border-radius: 50%;
+    z-index: 9999;
+}
+
+#back-to-top:hover {
+    background-color: #4C865A; 
+}
