@@ -178,3 +178,13 @@ div{
 #back-to-top:hover {
     background-color: #4C865A; 
 }
+
+footer{ 
+    display: flex;
+    justify-content: space-between;
+
+}
+footer div{
+    display: flex;
+    align-items: center;
+}
