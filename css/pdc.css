@@ -36,3 +36,6 @@ div{
 #back-to-top:hover {
     background-color: #4C865A; 
 }
+p{
+    text-align: left;
+}
